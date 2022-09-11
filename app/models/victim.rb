@@ -1,3 +1,3 @@
 class Victim < ApplicationRecord 
-    validations :name, presence: true
+    validates :name, presence: true
 end
